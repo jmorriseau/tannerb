@@ -1,0 +1,17 @@
+{
+  "name": "tannerb",
+  "version": "1.0.0",
+  "description": "rebuild of the in memory of me tanner b website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jmorriseau",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  },
+  "dependencies": {
+    "jquery": "^3.1.1"
+  }
+}
