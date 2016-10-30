@@ -36,7 +36,7 @@ function loadSlider(){
 
   if(init === false){
     for(var i = 0; i < slider.length; i++){
-      $('.slides').append('<span data-slide="' + i + '" class="slide-idx">' + (i + 1) + '</span>');
+      $('.slides').append('<span data-slide="' + i + '" class="slide-idx fa fa-circle"></span>');
     }
     init = true;
   }
@@ -64,6 +64,7 @@ function prevSlide(){
 
 $(function(){
   $('.slide-idx').on('click',function(){
+    console.log("click");
     slideIdx = $(this).data('slide');
     loadSlider();
   })
